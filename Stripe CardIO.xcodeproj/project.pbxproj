@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A473E34815EB895700F2B4AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E34715EB895700F2B4AF /* UIKit.framework */; };
+		A473E34A15EB895700F2B4AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E34915EB895700F2B4AF /* Foundation.framework */; };
+		A473E34C15EB895700F2B4AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E34B15EB895700F2B4AF /* CoreGraphics.framework */; };
+		A473E35215EB895700F2B4AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A473E35015EB895700F2B4AF /* InfoPlist.strings */; };
+		A473E35415EB895700F2B4AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E35315EB895700F2B4AF /* main.m */; };
+		A473E35815EB895700F2B4AF /* STCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E35715EB895700F2B4AF /* STCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A473E34315EB895700F2B4AF /* Stripe CardIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stripe CardIO.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A473E34715EB895700F2B4AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A473E34915EB895700F2B4AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A473E34B15EB895700F2B4AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A473E34F15EB895700F2B4AF /* Stripe CardIO-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stripe CardIO-Info.plist"; sourceTree = "<group>"; };
+		A473E35115EB895700F2B4AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A473E35315EB895700F2B4AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A473E35515EB895700F2B4AF /* Stripe CardIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stripe CardIO-Prefix.pch"; sourceTree = "<group>"; };
+		A473E35615EB895700F2B4AF /* STCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCAppDelegate.h; sourceTree = "<group>"; };
+		A473E35715EB895700F2B4AF /* STCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A473E34015EB895700F2B4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A473E34815EB895700F2B4AF /* UIKit.framework in Frameworks */,
+				A473E34A15EB895700F2B4AF /* Foundation.framework in Frameworks */,
+				A473E34C15EB895700F2B4AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A473E33815EB895700F2B4AF = {
+			isa = PBXGroup;
+			children = (
+				A473E34D15EB895700F2B4AF /* Stripe CardIO */,
+				A473E34615EB895700F2B4AF /* Frameworks */,
+				A473E34415EB895700F2B4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A473E34415EB895700F2B4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A473E34315EB895700F2B4AF /* Stripe CardIO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A473E34615EB895700F2B4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A473E34715EB895700F2B4AF /* UIKit.framework */,
+				A473E34915EB895700F2B4AF /* Foundation.framework */,
+				A473E34B15EB895700F2B4AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A473E34D15EB895700F2B4AF /* Stripe CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				A473E35615EB895700F2B4AF /* STCAppDelegate.h */,
+				A473E35715EB895700F2B4AF /* STCAppDelegate.m */,
+				A473E34E15EB895700F2B4AF /* Supporting Files */,
+			);
+			path = "Stripe CardIO";
+			sourceTree = "<group>";
+		};
+		A473E34E15EB895700F2B4AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A473E34F15EB895700F2B4AF /* Stripe CardIO-Info.plist */,
+				A473E35015EB895700F2B4AF /* InfoPlist.strings */,
+				A473E35315EB895700F2B4AF /* main.m */,
+				A473E35515EB895700F2B4AF /* Stripe CardIO-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A473E34215EB895700F2B4AF /* Stripe CardIO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A473E35B15EB895700F2B4AF /* Build configuration list for PBXNativeTarget "Stripe CardIO" */;
+			buildPhases = (
+				A473E33F15EB895700F2B4AF /* Sources */,
+				A473E34015EB895700F2B4AF /* Frameworks */,
+				A473E34115EB895700F2B4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stripe CardIO";
+			productName = "Stripe CardIO";
+			productReference = A473E34315EB895700F2B4AF /* Stripe CardIO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A473E33A15EB895700F2B4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = STC;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Red Davis";
+			};
+			buildConfigurationList = A473E33D15EB895700F2B4AF /* Build configuration list for PBXProject "Stripe CardIO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A473E33815EB895700F2B4AF;
+			productRefGroup = A473E34415EB895700F2B4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A473E34215EB895700F2B4AF /* Stripe CardIO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A473E34115EB895700F2B4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A473E35215EB895700F2B4AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A473E33F15EB895700F2B4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A473E35415EB895700F2B4AF /* main.m in Sources */,
+				A473E35815EB895700F2B4AF /* STCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A473E35015EB895700F2B4AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A473E35115EB895700F2B4AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A473E35915EB895700F2B4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A473E35A15EB895700F2B4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A473E35C15EB895700F2B4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stripe CardIO/Stripe CardIO-Prefix.pch";
+				INFOPLIST_FILE = "Stripe CardIO/Stripe CardIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A473E35D15EB895700F2B4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stripe CardIO/Stripe CardIO-Prefix.pch";
+				INFOPLIST_FILE = "Stripe CardIO/Stripe CardIO-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A473E33D15EB895700F2B4AF /* Build configuration list for PBXProject "Stripe CardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A473E35915EB895700F2B4AF /* Debug */,
+				A473E35A15EB895700F2B4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A473E35B15EB895700F2B4AF /* Build configuration list for PBXNativeTarget "Stripe CardIO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A473E35C15EB895700F2B4AF /* Debug */,
+				A473E35D15EB895700F2B4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A473E33A15EB895700F2B4AF /* Project object */;
+}
