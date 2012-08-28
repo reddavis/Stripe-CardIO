@@ -45,6 +45,7 @@
 		A473E50415EBA43700F2B4AF /* StripePublishableKey in Resources */ = {isa = PBXBuildFile; fileRef = A473E50315EBA43700F2B4AF /* StripePublishableKey */; };
 		A473E51715ED432A00F2B4AF /* STCLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E51615ED432A00F2B4AF /* STCLoadingView.m */; };
 		A473E51915ED487100F2B4AF /* CardIOKey in Resources */ = {isa = PBXBuildFile; fileRef = A473E51815ED487100F2B4AF /* CardIOKey */; };
+		A473E51F15ED4FFA00F2B4AF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A473E51E15ED4FFA00F2B4AF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +113,7 @@
 		A473E51315ED42F900F2B4AF /* STCLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCLoadingView.h; sourceTree = "<group>"; };
 		A473E51615ED432A00F2B4AF /* STCLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCLoadingView.m; sourceTree = "<group>"; };
 		A473E51815ED487100F2B4AF /* CardIOKey */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CardIOKey; sourceTree = "<group>"; };
+		A473E51E15ED4FFA00F2B4AF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 				A473E34D15EB895700F2B4AF /* Stripe CardIO */,
 				A473E34615EB895700F2B4AF /* Frameworks */,
 				A473E34415EB895700F2B4AF /* Products */,
+				A473E51E15ED4FFA00F2B4AF /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -379,6 +382,7 @@
 				A473E4FE15EB9AB700F2B4AF /* STCAddChargeViewController.xib in Resources */,
 				A473E50415EBA43700F2B4AF /* StripePublishableKey in Resources */,
 				A473E51915ED487100F2B4AF /* CardIOKey in Resources */,
+				A473E51F15ED4FFA00F2B4AF /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
