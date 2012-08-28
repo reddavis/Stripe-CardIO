@@ -1,0 +1,6 @@
+[submodule "Objective-Stripe"]
+	path = Objective-Stripe
+	url = git://github.com/reddavis/Objective-Stripe.git
+[submodule "Stripe CardIO/ObjectiveStripe"]
+	path = Stripe CardIO/ObjectiveStripe
+	url = git://github.com/reddavis/Objective-Stripe.git

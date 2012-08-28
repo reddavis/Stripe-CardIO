@@ -7,15 +7,34 @@
 //
 
 #import "STCAppDelegate.h"
+#import "STCChargesViewController.h"
+#import "STRStripeHTTPClient.h"
+
 
 @implementation STCAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSURL *stripeKeyURL = [[NSBundle mainBundle] URLForResource:@"StripePublishableKey" withExtension:nil];    
+    NSError *readingKeyError = nil;
+    NSString *stripKey = [NSString stringWithContentsOfURL:stripeKeyURL encoding:NSUTF8StringEncoding error:&readingKeyError];
+    
+    if (readingKeyError) {
+        NSLog(@"Error reading Stripe Key %@", readingKeyError);
+    }
+    else {
+        [STRStripeHTTPClient setAPIKey:stripKey];
+    }
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    STCChargesViewController *chargesViewController = [[STCChargesViewController alloc] initWithNibName:@"STCChargesViewController" bundle:nil];
+    self.navigationController = [[UINavigationController alloc] initWithRootViewController:chargesViewController];
+    
+    self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

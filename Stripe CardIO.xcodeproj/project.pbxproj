@@ -13,6 +13,38 @@
 		A473E35215EB895700F2B4AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A473E35015EB895700F2B4AF /* InfoPlist.strings */; };
 		A473E35415EB895700F2B4AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E35315EB895700F2B4AF /* main.m */; };
 		A473E35815EB895700F2B4AF /* STCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E35715EB895700F2B4AF /* STCAppDelegate.m */; };
+		A473E4AE15EB96AE00F2B4AF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A473E4A515EB96AE00F2B4AF /* LICENSE */; };
+		A473E4AF15EB96AE00F2B4AF /* STRCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4A715EB96AE00F2B4AF /* STRCard.m */; };
+		A473E4B015EB96AE00F2B4AF /* STRCharge.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4A915EB96AE00F2B4AF /* STRCharge.m */; };
+		A473E4B115EB96AE00F2B4AF /* STRCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4AB15EB96AE00F2B4AF /* STRCustomer.m */; };
+		A473E4B215EB96AE00F2B4AF /* STRStripeHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4AD15EB96AE00F2B4AF /* STRStripeHTTPClient.m */; };
+		A473E4CA15EB96FF00F2B4AF /* AFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4B615EB96FF00F2B4AF /* AFHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4CB15EB96FF00F2B4AF /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4B815EB96FF00F2B4AF /* AFHTTPRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4CC15EB96FF00F2B4AF /* AFImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4BA15EB96FF00F2B4AF /* AFImageRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4CD15EB96FF00F2B4AF /* AFJSONRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4BC15EB96FF00F2B4AF /* AFJSONRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4CE15EB96FF00F2B4AF /* AFJSONUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4BE15EB96FF00F2B4AF /* AFJSONUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4CF15EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4C015EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4D015EB96FF00F2B4AF /* AFPropertyListRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4C315EB96FF00F2B4AF /* AFPropertyListRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4D115EB96FF00F2B4AF /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4C515EB96FF00F2B4AF /* AFURLConnectionOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4D215EB96FF00F2B4AF /* AFXMLRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4C715EB96FF00F2B4AF /* AFXMLRequestOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4D315EB96FF00F2B4AF /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4C915EB96FF00F2B4AF /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A473E4DD15EB979400F2B4AF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4DC15EB979400F2B4AF /* MobileCoreServices.framework */; };
+		A473E4DF15EB979E00F2B4AF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4DE15EB979E00F2B4AF /* OpenGLES.framework */; };
+		A473E4E115EB97A700F2B4AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4E015EB97A700F2B4AF /* QuartzCore.framework */; };
+		A473E4E315EB97AE00F2B4AF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4E215EB97AE00F2B4AF /* Security.framework */; };
+		A473E4E415EB97D100F2B4AF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4DA15EB978B00F2B4AF /* CoreVideo.framework */; };
+		A473E4E515EB97D100F2B4AF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4D815EB978300F2B4AF /* CoreMedia.framework */; };
+		A473E4E615EB97D100F2B4AF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4D615EB977C00F2B4AF /* AudioToolbox.framework */; };
+		A473E4E715EB97D100F2B4AF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4D415EB977000F2B4AF /* AVFoundation.framework */; };
+		A473E4E915EB986800F2B4AF /* acknowledgments.md in Resources */ = {isa = PBXBuildFile; fileRef = A473E4E815EB986800F2B4AF /* acknowledgments.md */; };
+		A473E4F015EB988300F2B4AF /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A473E4EF15EB988300F2B4AF /* libCardIO.a */; };
+		A473E4F615EB991E00F2B4AF /* STCChargesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4F415EB991E00F2B4AF /* STCChargesViewController.m */; };
+		A473E4F715EB991E00F2B4AF /* STCChargesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A473E4F515EB991E00F2B4AF /* STCChargesViewController.xib */; };
+		A473E4FD15EB9AB700F2B4AF /* STCAddChargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E4FB15EB9AB700F2B4AF /* STCAddChargeViewController.m */; };
+		A473E4FE15EB9AB700F2B4AF /* STCAddChargeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A473E4FC15EB9AB700F2B4AF /* STCAddChargeViewController.xib */; };
+		A473E50415EBA43700F2B4AF /* StripePublishableKey in Resources */ = {isa = PBXBuildFile; fileRef = A473E50315EBA43700F2B4AF /* StripePublishableKey */; };
+		A473E51715ED432A00F2B4AF /* STCLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A473E51615ED432A00F2B4AF /* STCLoadingView.m */; };
+		A473E51915ED487100F2B4AF /* CardIOKey in Resources */ = {isa = PBXBuildFile; fileRef = A473E51815ED487100F2B4AF /* CardIOKey */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +58,60 @@
 		A473E35515EB895700F2B4AF /* Stripe CardIO-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stripe CardIO-Prefix.pch"; sourceTree = "<group>"; };
 		A473E35615EB895700F2B4AF /* STCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCAppDelegate.h; sourceTree = "<group>"; };
 		A473E35715EB895700F2B4AF /* STCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCAppDelegate.m; sourceTree = "<group>"; };
+		A473E4A515EB96AE00F2B4AF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A473E4A615EB96AE00F2B4AF /* STRCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRCard.h; sourceTree = "<group>"; };
+		A473E4A715EB96AE00F2B4AF /* STRCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRCard.m; sourceTree = "<group>"; };
+		A473E4A815EB96AE00F2B4AF /* STRCharge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRCharge.h; sourceTree = "<group>"; };
+		A473E4A915EB96AE00F2B4AF /* STRCharge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRCharge.m; sourceTree = "<group>"; };
+		A473E4AA15EB96AE00F2B4AF /* STRCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRCustomer.h; sourceTree = "<group>"; };
+		A473E4AB15EB96AE00F2B4AF /* STRCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRCustomer.m; sourceTree = "<group>"; };
+		A473E4AC15EB96AE00F2B4AF /* STRStripeHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRStripeHTTPClient.h; sourceTree = "<group>"; };
+		A473E4AD15EB96AE00F2B4AF /* STRStripeHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRStripeHTTPClient.m; sourceTree = "<group>"; };
+		A473E4B515EB96FF00F2B4AF /* AFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPClient.h; sourceTree = "<group>"; };
+		A473E4B615EB96FF00F2B4AF /* AFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPClient.m; sourceTree = "<group>"; };
+		A473E4B715EB96FF00F2B4AF /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		A473E4B815EB96FF00F2B4AF /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		A473E4B915EB96FF00F2B4AF /* AFImageRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageRequestOperation.h; sourceTree = "<group>"; };
+		A473E4BA15EB96FF00F2B4AF /* AFImageRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageRequestOperation.m; sourceTree = "<group>"; };
+		A473E4BB15EB96FF00F2B4AF /* AFJSONRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONRequestOperation.h; sourceTree = "<group>"; };
+		A473E4BC15EB96FF00F2B4AF /* AFJSONRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONRequestOperation.m; sourceTree = "<group>"; };
+		A473E4BD15EB96FF00F2B4AF /* AFJSONUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFJSONUtilities.h; sourceTree = "<group>"; };
+		A473E4BE15EB96FF00F2B4AF /* AFJSONUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFJSONUtilities.m; sourceTree = "<group>"; };
+		A473E4BF15EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		A473E4C015EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		A473E4C115EB96FF00F2B4AF /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		A473E4C215EB96FF00F2B4AF /* AFPropertyListRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPropertyListRequestOperation.h; sourceTree = "<group>"; };
+		A473E4C315EB96FF00F2B4AF /* AFPropertyListRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFPropertyListRequestOperation.m; sourceTree = "<group>"; };
+		A473E4C415EB96FF00F2B4AF /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		A473E4C515EB96FF00F2B4AF /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		A473E4C615EB96FF00F2B4AF /* AFXMLRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFXMLRequestOperation.h; sourceTree = "<group>"; };
+		A473E4C715EB96FF00F2B4AF /* AFXMLRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFXMLRequestOperation.m; sourceTree = "<group>"; };
+		A473E4C815EB96FF00F2B4AF /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		A473E4C915EB96FF00F2B4AF /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		A473E4D415EB977000F2B4AF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A473E4D615EB977C00F2B4AF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A473E4D815EB978300F2B4AF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A473E4DA15EB978B00F2B4AF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A473E4DC15EB979400F2B4AF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A473E4DE15EB979E00F2B4AF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A473E4E015EB97A700F2B4AF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A473E4E215EB97AE00F2B4AF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A473E4E815EB986800F2B4AF /* acknowledgments.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = acknowledgments.md; sourceTree = "<group>"; };
+		A473E4EB15EB988300F2B4AF /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		A473E4EC15EB988300F2B4AF /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		A473E4ED15EB988300F2B4AF /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		A473E4EE15EB988300F2B4AF /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		A473E4EF15EB988300F2B4AF /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		A473E4F315EB991E00F2B4AF /* STCChargesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCChargesViewController.h; sourceTree = "<group>"; };
+		A473E4F415EB991E00F2B4AF /* STCChargesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCChargesViewController.m; sourceTree = "<group>"; };
+		A473E4F515EB991E00F2B4AF /* STCChargesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCChargesViewController.xib; sourceTree = "<group>"; };
+		A473E4FA15EB9AB700F2B4AF /* STCAddChargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCAddChargeViewController.h; sourceTree = "<group>"; };
+		A473E4FB15EB9AB700F2B4AF /* STCAddChargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCAddChargeViewController.m; sourceTree = "<group>"; };
+		A473E4FC15EB9AB700F2B4AF /* STCAddChargeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STCAddChargeViewController.xib; sourceTree = "<group>"; };
+		A473E50315EBA43700F2B4AF /* StripePublishableKey */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StripePublishableKey; sourceTree = "<group>"; };
+		A473E51315ED42F900F2B4AF /* STCLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCLoadingView.h; sourceTree = "<group>"; };
+		A473E51615ED432A00F2B4AF /* STCLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCLoadingView.m; sourceTree = "<group>"; };
+		A473E51815ED487100F2B4AF /* CardIOKey */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CardIOKey; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +119,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A473E4E315EB97AE00F2B4AF /* Security.framework in Frameworks */,
+				A473E4E115EB97A700F2B4AF /* QuartzCore.framework in Frameworks */,
+				A473E4DF15EB979E00F2B4AF /* OpenGLES.framework in Frameworks */,
+				A473E4DD15EB979400F2B4AF /* MobileCoreServices.framework in Frameworks */,
+				A473E4E415EB97D100F2B4AF /* CoreVideo.framework in Frameworks */,
+				A473E4E515EB97D100F2B4AF /* CoreMedia.framework in Frameworks */,
+				A473E4E615EB97D100F2B4AF /* AudioToolbox.framework in Frameworks */,
+				A473E4E715EB97D100F2B4AF /* AVFoundation.framework in Frameworks */,
 				A473E34815EB895700F2B4AF /* UIKit.framework in Frameworks */,
 				A473E34A15EB895700F2B4AF /* Foundation.framework in Frameworks */,
 				A473E34C15EB895700F2B4AF /* CoreGraphics.framework in Frameworks */,
+				A473E4F015EB988300F2B4AF /* libCardIO.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +157,14 @@
 		A473E34615EB895700F2B4AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A473E4E215EB97AE00F2B4AF /* Security.framework */,
+				A473E4E015EB97A700F2B4AF /* QuartzCore.framework */,
+				A473E4DE15EB979E00F2B4AF /* OpenGLES.framework */,
+				A473E4DC15EB979400F2B4AF /* MobileCoreServices.framework */,
+				A473E4DA15EB978B00F2B4AF /* CoreVideo.framework */,
+				A473E4D815EB978300F2B4AF /* CoreMedia.framework */,
+				A473E4D615EB977C00F2B4AF /* AudioToolbox.framework */,
+				A473E4D415EB977000F2B4AF /* AVFoundation.framework */,
 				A473E34715EB895700F2B4AF /* UIKit.framework */,
 				A473E34915EB895700F2B4AF /* Foundation.framework */,
 				A473E34B15EB895700F2B4AF /* CoreGraphics.framework */,
@@ -74,6 +177,10 @@
 			children = (
 				A473E35615EB895700F2B4AF /* STCAppDelegate.h */,
 				A473E35715EB895700F2B4AF /* STCAppDelegate.m */,
+				A473E4F115EB98B800F2B4AF /* View Controllers */,
+				A473E51115ED42D400F2B4AF /* Views */,
+				A473E4F815EB992400F2B4AF /* Xibs */,
+				A473E37B15EB946000F2B4AF /* Vendor */,
 				A473E34E15EB895700F2B4AF /* Supporting Files */,
 			);
 			path = "Stripe CardIO";
@@ -82,12 +189,135 @@
 		A473E34E15EB895700F2B4AF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A473E50315EBA43700F2B4AF /* StripePublishableKey */,
+				A473E4E815EB986800F2B4AF /* acknowledgments.md */,
 				A473E34F15EB895700F2B4AF /* Stripe CardIO-Info.plist */,
 				A473E35015EB895700F2B4AF /* InfoPlist.strings */,
 				A473E35315EB895700F2B4AF /* main.m */,
 				A473E35515EB895700F2B4AF /* Stripe CardIO-Prefix.pch */,
+				A473E51815ED487100F2B4AF /* CardIOKey */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A473E37B15EB946000F2B4AF /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4EA15EB988300F2B4AF /* CardIO */,
+				A473E4B415EB96FF00F2B4AF /* AFNetworking */,
+				A473E4A415EB96AE00F2B4AF /* Stripe */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		A473E4A415EB96AE00F2B4AF /* Stripe */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4A515EB96AE00F2B4AF /* LICENSE */,
+				A473E4A615EB96AE00F2B4AF /* STRCard.h */,
+				A473E4A715EB96AE00F2B4AF /* STRCard.m */,
+				A473E4A815EB96AE00F2B4AF /* STRCharge.h */,
+				A473E4A915EB96AE00F2B4AF /* STRCharge.m */,
+				A473E4AA15EB96AE00F2B4AF /* STRCustomer.h */,
+				A473E4AB15EB96AE00F2B4AF /* STRCustomer.m */,
+				A473E4AC15EB96AE00F2B4AF /* STRStripeHTTPClient.h */,
+				A473E4AD15EB96AE00F2B4AF /* STRStripeHTTPClient.m */,
+			);
+			name = Stripe;
+			path = ObjectiveStripe/StripeDemo/Stripe;
+			sourceTree = "<group>";
+		};
+		A473E4B415EB96FF00F2B4AF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4B515EB96FF00F2B4AF /* AFHTTPClient.h */,
+				A473E4B615EB96FF00F2B4AF /* AFHTTPClient.m */,
+				A473E4B715EB96FF00F2B4AF /* AFHTTPRequestOperation.h */,
+				A473E4B815EB96FF00F2B4AF /* AFHTTPRequestOperation.m */,
+				A473E4B915EB96FF00F2B4AF /* AFImageRequestOperation.h */,
+				A473E4BA15EB96FF00F2B4AF /* AFImageRequestOperation.m */,
+				A473E4BB15EB96FF00F2B4AF /* AFJSONRequestOperation.h */,
+				A473E4BC15EB96FF00F2B4AF /* AFJSONRequestOperation.m */,
+				A473E4BD15EB96FF00F2B4AF /* AFJSONUtilities.h */,
+				A473E4BE15EB96FF00F2B4AF /* AFJSONUtilities.m */,
+				A473E4BF15EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.h */,
+				A473E4C015EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.m */,
+				A473E4C115EB96FF00F2B4AF /* AFNetworking.h */,
+				A473E4C215EB96FF00F2B4AF /* AFPropertyListRequestOperation.h */,
+				A473E4C315EB96FF00F2B4AF /* AFPropertyListRequestOperation.m */,
+				A473E4C415EB96FF00F2B4AF /* AFURLConnectionOperation.h */,
+				A473E4C515EB96FF00F2B4AF /* AFURLConnectionOperation.m */,
+				A473E4C615EB96FF00F2B4AF /* AFXMLRequestOperation.h */,
+				A473E4C715EB96FF00F2B4AF /* AFXMLRequestOperation.m */,
+				A473E4C815EB96FF00F2B4AF /* UIImageView+AFNetworking.h */,
+				A473E4C915EB96FF00F2B4AF /* UIImageView+AFNetworking.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		A473E4EA15EB988300F2B4AF /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4EB15EB988300F2B4AF /* CardIO.h */,
+				A473E4EC15EB988300F2B4AF /* CardIOCreditCardInfo.h */,
+				A473E4ED15EB988300F2B4AF /* CardIOPaymentViewController.h */,
+				A473E4EE15EB988300F2B4AF /* CardIOPaymentViewControllerDelegate.h */,
+				A473E4EF15EB988300F2B4AF /* libCardIO.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+		A473E4F115EB98B800F2B4AF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4F915EB9A9E00F2B4AF /* Add Charge */,
+				A473E4F215EB98C500F2B4AF /* Charges View Controller */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A473E4F215EB98C500F2B4AF /* Charges View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4F315EB991E00F2B4AF /* STCChargesViewController.h */,
+				A473E4F415EB991E00F2B4AF /* STCChargesViewController.m */,
+			);
+			name = "Charges View Controller";
+			sourceTree = "<group>";
+		};
+		A473E4F815EB992400F2B4AF /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4FC15EB9AB700F2B4AF /* STCAddChargeViewController.xib */,
+				A473E4F515EB991E00F2B4AF /* STCChargesViewController.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+		A473E4F915EB9A9E00F2B4AF /* Add Charge */ = {
+			isa = PBXGroup;
+			children = (
+				A473E4FA15EB9AB700F2B4AF /* STCAddChargeViewController.h */,
+				A473E4FB15EB9AB700F2B4AF /* STCAddChargeViewController.m */,
+			);
+			name = "Add Charge";
+			sourceTree = "<group>";
+		};
+		A473E51115ED42D400F2B4AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A473E51215ED42DD00F2B4AF /* Loading View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A473E51215ED42DD00F2B4AF /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				A473E51315ED42F900F2B4AF /* STCLoadingView.h */,
+				A473E51615ED432A00F2B4AF /* STCLoadingView.m */,
+			);
+			name = "Loading View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A473E35215EB895700F2B4AF /* InfoPlist.strings in Resources */,
+				A473E4AE15EB96AE00F2B4AF /* LICENSE in Resources */,
+				A473E4E915EB986800F2B4AF /* acknowledgments.md in Resources */,
+				A473E4F715EB991E00F2B4AF /* STCChargesViewController.xib in Resources */,
+				A473E4FE15EB9AB700F2B4AF /* STCAddChargeViewController.xib in Resources */,
+				A473E50415EBA43700F2B4AF /* StripePublishableKey in Resources */,
+				A473E51915ED487100F2B4AF /* CardIOKey in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +391,23 @@
 			files = (
 				A473E35415EB895700F2B4AF /* main.m in Sources */,
 				A473E35815EB895700F2B4AF /* STCAppDelegate.m in Sources */,
+				A473E4AF15EB96AE00F2B4AF /* STRCard.m in Sources */,
+				A473E4B015EB96AE00F2B4AF /* STRCharge.m in Sources */,
+				A473E4B115EB96AE00F2B4AF /* STRCustomer.m in Sources */,
+				A473E4B215EB96AE00F2B4AF /* STRStripeHTTPClient.m in Sources */,
+				A473E4CA15EB96FF00F2B4AF /* AFHTTPClient.m in Sources */,
+				A473E4CB15EB96FF00F2B4AF /* AFHTTPRequestOperation.m in Sources */,
+				A473E4CC15EB96FF00F2B4AF /* AFImageRequestOperation.m in Sources */,
+				A473E4CD15EB96FF00F2B4AF /* AFJSONRequestOperation.m in Sources */,
+				A473E4CE15EB96FF00F2B4AF /* AFJSONUtilities.m in Sources */,
+				A473E4CF15EB96FF00F2B4AF /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A473E4D015EB96FF00F2B4AF /* AFPropertyListRequestOperation.m in Sources */,
+				A473E4D115EB96FF00F2B4AF /* AFURLConnectionOperation.m in Sources */,
+				A473E4D215EB96FF00F2B4AF /* AFXMLRequestOperation.m in Sources */,
+				A473E4D315EB96FF00F2B4AF /* UIImageView+AFNetworking.m in Sources */,
+				A473E4F615EB991E00F2B4AF /* STCChargesViewController.m in Sources */,
+				A473E4FD15EB9AB700F2B4AF /* STCAddChargeViewController.m in Sources */,
+				A473E51715ED432A00F2B4AF /* STCLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +480,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stripe CardIO/Stripe CardIO-Prefix.pch";
 				INFOPLIST_FILE = "Stripe CardIO/Stripe CardIO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Stripe CardIO/CardIO\"",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -238,6 +496,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stripe CardIO/Stripe CardIO-Prefix.pch";
 				INFOPLIST_FILE = "Stripe CardIO/Stripe CardIO-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Stripe CardIO/CardIO\"",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -262,6 +525,7 @@
 				A473E35D15EB895700F2B4AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
